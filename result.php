@@ -1,6 +1,5 @@
 <?php
 require_once 'database.php';
-
 $score = 0;
 foreach($_POST['questionId'] as $questionId){
     //Find answer Id correct
